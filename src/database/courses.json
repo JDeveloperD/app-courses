@@ -1,0 +1,298 @@
+[
+  {
+      "id": 86615414,
+      "name": "Luxurious Bronze Bike",
+      "slug": "86615414-luxurious-bronze-bike",
+      "level": 2,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 74620482,
+          "thumb": "http://loremflickr.com/1280/768/nightlife?32151",
+          "alt": "Doloribus molestiae ea illo. Mollitia commodi rerum illum autem cupiditate. Aspernatur aut iusto tempora. Eaque amet fuga vel sapiente repudiandae natus ex dolorem ut. Quae in temporibus sit tenetur rerum fuga quia est et.",
+          "title": "sed dolor corporis sit sapiente dolorem reprehenderit voluptatem voluptas distinctio",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 396.36,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 149.72,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 37656328,
+          "name": "Norberto Beatty",
+          "email": "Brielle.Ernser85@hotmail.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/746.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 5873,
+      "excerpt": "Et nihil sit. Suscipit illum velit eos architecto eligendi nihil. Et numquam fugit ab totam accusamus ipsa sequi repellat.",
+      "rating": 5
+  },
+  {
+      "id": 67386883,
+      "name": "Sleek Steel Chair",
+      "slug": "67386883-sleek-steel-chair",
+      "level": 3,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 94444311,
+          "thumb": "http://loremflickr.com/1280/768/animals?22269",
+          "alt": "Nesciunt incidunt quo iure sapiente perferendis a mollitia quaerat omnis. Reiciendis vel labore iure ullam tempora aut. Sit et voluptatem alias enim. Quae in quia tempora et omnis.",
+          "title": "quidem reiciendis aliquid voluptatem est minus odio qui officiis dolorem",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 379.43,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 178.3,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 13138821,
+          "name": "Prince Jaskolski",
+          "email": "Maegan_Klein87@gmail.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/371.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 571,
+      "excerpt": "Qui quod quia fuga non architecto ex ipsum voluptates. Minus placeat commodi quo accusamus voluptatum voluptas recusandae iusto. Quisquam hic earum voluptatem laborum minima placeat aut aut est.",
+      "rating": 4
+  },
+  {
+      "id": 26851554,
+      "name": "Elegant Rubber Towels",
+      "slug": "26851554-elegant-rubber-towels",
+      "level": 1,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 51332608,
+          "thumb": "http://loremflickr.com/1280/768/abstract?29493",
+          "alt": "repellat",
+          "title": "suscipit qui in reprehenderit omnis architecto iusto soluta ullam quae",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 355.74,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 187.27,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 11761897,
+          "name": "Shayne Kub",
+          "email": "Geo11@hotmail.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 4530,
+      "excerpt": "Voluptatibus aut occaecati praesentium et dolorem. Sint maxime fuga aliquid dolor quasi illum repellendus cumque. Quia reiciendis ratione eos ab nemo. Eos consectetur ut repellendus reiciendis. Quam sint totam.",
+      "rating": 3
+  },
+  {
+      "id": 32274233,
+      "name": "Incredible Soft Towels",
+      "slug": "32274233-incredible-soft-towels",
+      "level": 1,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 74829650,
+          "thumb": "http://loremflickr.com/1280/768/city?41533",
+          "alt": "Eaque fugit et omnis natus. Voluptatem harum beatae. Fugit non nihil minima qui natus. Eveniet eius et qui.",
+          "title": "quibusdam voluptas distinctio ab quia minus non facere est minima",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 368.1,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 131.58,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 96350281,
+          "name": "Jennie Parker",
+          "email": "Emmitt57@yahoo.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 1880,
+      "excerpt": "Neque in non provident ad natus autem totam. Dolorem consequatur aut ipsa blanditiis quia aut sunt. Amet suscipit voluptate magni ut quidem nemo non velit molestias. Quia autem sunt doloribus maxime alias. Veniam aut beatae eos quia distinctio impedit dolorum.",
+      "rating": 5
+  },
+  {
+      "id": 82415384,
+      "name": "Handmade Plastic Bike",
+      "slug": "82415384-handmade-plastic-bike",
+      "level": 1,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 86473211,
+          "thumb": "http://loremflickr.com/1280/768/nature?19463",
+          "alt": "Ratione dolores eius in fuga sint maiores.\nOdio ad perferendis saepe minus fugiat.\nConsequuntur at voluptates debitis ducimus dolore rerum voluptas quas architecto.\nItaque quo numquam et sapiente totam ipsum eveniet dolor ea.",
+          "title": "rerum dolore sed doloribus aut eos rerum ipsa ea sequi",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 377.3,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 263.78,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 28904637,
+          "name": "Joaquin Herzog",
+          "email": "Serena59@yahoo.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/32.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 4959,
+      "excerpt": "Dolore est nobis. Neque aut assumenda unde assumenda possimus praesentium.",
+      "rating": 2
+  },
+  {
+      "id": 65399971,
+      "name": "Refined Granite Mouse",
+      "slug": "65399971-refined-granite-mouse",
+      "level": 3,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 56669464,
+          "thumb": "http://loremflickr.com/1280/768/fashion?75452",
+          "alt": "Nihil est quia vitae quas autem optio porro.",
+          "title": "nostrum ut atque et cumque natus voluptatibus veritatis vel nihil",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 383.29,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 246.96,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 87625379,
+          "name": "Henri Koepp",
+          "email": "Leatha17@yahoo.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 2692,
+      "excerpt": "Qui beatae aut et eaque quidem sequi quae. Soluta nulla sit non qui laudantium dolorem dolorem. Voluptas sequi esse omnis.",
+      "rating": 3
+  },
+  {
+      "id": 58001798,
+      "name": "Unbranded Steel Shoes",
+      "slug": "58001798-unbranded-steel-shoes",
+      "level": 1,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 79154198,
+          "thumb": "http://loremflickr.com/1280/768/nightlife?53925",
+          "alt": "Eveniet suscipit dolorem blanditiis est voluptatibus eius. Aliquid hic ducimus maxime eligendi dolores. Hic autem sunt inventore.\nEt aut et autem autem saepe cupiditate incidunt. Perferendis enim eligendi porro nisi dolorum quia temporibus eos. Ex repudiandae numquam minima voluptatum odit omnis porro perferendis. Voluptatibus necessitatibus est quis ut illum nisi ipsam quod. Debitis porro sed nobis iste corrupti eos placeat.\nAutem incidunt est itaque sapiente qui reprehenderit ut fuga. Quo autem odio et sunt. Commodi nesciunt aut exercitationem nulla. Beatae tenetur eos omnis dolor. Aut aspernatur id aut rerum.",
+          "title": "animi illo incidunt praesentium rem commodi quis deleniti rerum harum",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 355.11,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 152.41,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 72420319,
+          "name": "Brandy Franecki",
+          "email": "Randi12@yahoo.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/475.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 8863,
+      "excerpt": "Aut recusandae praesentium tenetur rem aut aspernatur et sapiente. Iure ipsum quaerat omnis expedita molestiae.",
+      "rating": 5
+  },
+  {
+      "id": 56506853,
+      "name": "Modern Fresh Salad",
+      "slug": "56506853-modern-fresh-salad",
+      "level": 1,
+      "duration": {
+          "hour": 1,
+          "minute": 40,
+          "second": 20
+      },
+      "category": 1,
+      "video": {
+          "id": 82900502,
+          "thumb": "http://loremflickr.com/1280/768/technics?2185",
+          "alt": "Illo reprehenderit enim deleniti minus numquam et dolore. Exercitationem ipsa voluptate tenetur reprehenderit minima fuga qui. Reprehenderit mollitia veniam adipisci. Dolores optio qui et dolorem repellat dolore.",
+          "title": "est totam optio sunt rerum distinctio amet iure sint placeat",
+          "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      "price": {
+          "amount": 360.25,
+          "currency": "USD"
+      },
+      "discount": {
+          "amount": 315.32,
+          "currency": "USD"
+      },
+      "instructor": {
+          "id": 39270178,
+          "name": "Aditya Beer",
+          "email": "Ansel10@yahoo.com",
+          "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+          "profile": "instructor"
+      },
+      "totalStudents": 4001,
+      "excerpt": "Blanditiis occaecati doloremque earum totam optio enim harum. Omnis eveniet et ipsam autem ipsam exercitationem voluptatem placeat inventore. Omnis enim incidunt a sapiente cumque.",
+      "rating": 4
+  }
+]
