@@ -5,7 +5,7 @@ import { lighten, readableColor } from 'polished';
 import { ButtonHTMLAttributes } from 'react';
 
 export type ButtonStyledPropsInterface = ButtonHTMLAttributes<HTMLButtonElement> & Pick<ThemePropsInterface, 'color'> & {
-  variant?: 'filled' |'outlined' | 'icon',
+  variant?: 'filled' |'outlined' | 'icon' | 'link',
   block?: boolean,
   roundedPill?: boolean,
   bold?: boolean
@@ -21,6 +21,10 @@ const Button = styled.button<ButtonStyledPropsInterface>`
 
   ${({ theme, color }) => color && css`
     color: ${theme.colors[color]};
+  `}
+
+  ${({ variant }) => variant === 'link' && css`
+    padding: 0;
   `}
 
   ${({ theme, color, variant }) => variant === 'filled' && color && css`
@@ -63,6 +67,8 @@ const Button = styled.button<ButtonStyledPropsInterface>`
   ${({ bold }) => bold && css`
     font-weight: bold;
   `}
+
+  ${({ link }) => {}}
 `;
 
 export default Button;

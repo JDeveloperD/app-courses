@@ -1,11 +1,16 @@
-import { CardVideoLink } from '@features/course';
+import { CourseCardShort, Course } from '@features/course';
 import { MarkSection, Button, BsArrowRight, Slider } from '@features/ui';
 import { GRID_BREAKPOINTS } from '@styles';
 import { SwiperSlide } from 'swiper/react';
-import { Wrapper } from './courseCarouselSection.styled';
+import { Wrapper } from './courseSectionCarousel.styled';
 import Link from 'next/link';
+import { FC } from 'react';
 
-const CourseCarouselVideoSection = ({ courses }) => {
+type CourseSectionCarouselProps = {
+  courses: Course[]
+}
+
+const CourseSectionCarousel: FC<CourseSectionCarouselProps> = ({ courses }) => {
   return (
     <Wrapper>
       <MarkSection>Cursos</MarkSection>
@@ -30,7 +35,7 @@ const CourseCarouselVideoSection = ({ courses }) => {
         }}
         render={(course: any, index: number) => (
           <SwiperSlide key={index}>
-            <CardVideoLink {...course}/>
+            <CourseCardShort {...course}/>
           </SwiperSlide>
         )}
       />
@@ -56,10 +61,11 @@ const CourseCarouselVideoSection = ({ courses }) => {
         }}
         render={(course: any, index: number) => (
           <SwiperSlide key={index}>
-            <CardVideoLink {...course}/>
+            <CourseCardShort {...course}/>
           </SwiperSlide>
         )}
       />
+
       <div className="text-center">
         <Link href='/cursos' passHref>
           <Button
@@ -69,9 +75,8 @@ const CourseCarouselVideoSection = ({ courses }) => {
           </Button>
         </Link>
       </div>
-
     </Wrapper>
   );
 };
 
-export default CourseCarouselVideoSection;
+export default CourseSectionCarousel;

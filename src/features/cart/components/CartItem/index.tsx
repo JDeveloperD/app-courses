@@ -1,11 +1,10 @@
 import { FC } from 'react';
-import { Button, HeadLine, Small, GrTrash } from '@features/ui';
 import Image from 'next/image';
-import CartItemStyled from './cartItem.styled';
-import { CartService } from '@features/cart/services/CartService';
-import { CartTypes, useCartContext } from '@features/cart/context';
+import { Button, HeadLine, Small, GrTrash } from '@features/ui';
+import { CartTypes, useCartContext, CartService } from '@features/cart';
 import { useCourseContext, Course } from '@features/course';
 import { formatCurrency } from '@utils/formatCurrency';
+import CartItemStyled from './cartItem.styled';
 
 type CartItemProps = Omit<Course, 'level'>
 

@@ -1,4 +1,8 @@
+import dayjs from 'dayjs';
+import 'dayjs/locale/es-mx';
 import { Time } from '@features/course/domain/Course';
+
+dayjs.locale('es-mx');
 
 export function formatTime(time: Time): string {
   let format: string = '';
@@ -21,4 +25,8 @@ export function formatTimeDefault (time: Time): string {
 
   format += `${time.minute}:${time.second}`;
   return format;
+}
+
+export function formatTimeO (date: Date) {
+  return dayjs(date).format('MMM DD, YYYY');
 }

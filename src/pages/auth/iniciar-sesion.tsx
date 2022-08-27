@@ -1,7 +1,7 @@
 import { GetServerSideProps } from 'next';
 import { getCsrfToken, getProviders, signIn } from 'next-auth/react';
 import { Button, LineDividerText, HeadLine, Small } from '@features/ui';
-import { SignInForm } from '@features/auth';
+import { AuthFormSignIn } from '@features/auth';
 import Image from 'next/image';
 
 export const getServerSideProps:GetServerSideProps<{}> = async (context) => {
@@ -14,7 +14,7 @@ export const getServerSideProps:GetServerSideProps<{}> = async (context) => {
   };
 };
 
-const SignInPage = ({ csrfToken, providers }) => {
+const AuthSignInPage = ({ csrfToken, providers }) => {
   const providerGithub = providers[1];
   const providerGoogle = providers[2];
   return (
@@ -57,7 +57,7 @@ const SignInPage = ({ csrfToken, providers }) => {
         </Button>
       </div>
       <LineDividerText gap='1rem' color='gray' className='mt-4'>Iniciar con credenciales</LineDividerText>
-      <SignInForm csrfToken={csrfToken} />
+      <AuthFormSignIn csrfToken={csrfToken} />
       <div className='mt-5'>
         <Small color='gray'>&copy; 2022. Todos los derechos reservados | Desarrollado por David Sandoval</Small>
       </div>
@@ -65,6 +65,6 @@ const SignInPage = ({ csrfToken, providers }) => {
   );
 };
 
-SignInPage.layout = 'auth';
+AuthSignInPage.layout = 'auth';
 
-export default SignInPage;
+export default AuthSignInPage;

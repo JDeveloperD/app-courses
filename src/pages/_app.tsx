@@ -1,15 +1,22 @@
 import type { AppProps } from 'next/app';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { GlobalStyles } from '@styles';
-import { AuthLayout, PageLayout } from '@layouts';
+import {
+  LayoutPublic,
+  LayoutAuth,
+  LayoutStore,
+  LayoutPlayer
+} from '@layouts';
 // import { useRouterChange } from '@hooks/useRouterChange';
 import { PublicThemeProvider } from '@contexts/PublicCtx';
 import { SessionProvider } from 'next-auth/react';
 import NextNProgress from 'nextjs-progressbar';
 
 const layouts = {
-  public: PageLayout,
-  auth: AuthLayout
+  public: LayoutPublic,
+  auth: LayoutAuth,
+  store: LayoutStore,
+  player: LayoutPlayer
 };
 
 function MyApp({ Component, pageProps, router }: AppProps) {

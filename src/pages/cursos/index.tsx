@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next';
+import { GetServerSideProps, NextPage } from 'next';
 import {
   Col,
   Container,
@@ -6,8 +6,8 @@ import {
   Section
 } from '@features/ui';
 import {
-  FilterCourseAside,
-  GridCourses,
+  CourseFilterLateral,
+  CourseGridDefault,
   CourseTypes,
   useCourseContext
 } from '@features/course';
@@ -43,10 +43,10 @@ const CoursesPage = ({ courses }: {courses: any[]}) => {
         <Container>
           <Row>
             <Col lg={3}>
-              <FilterCourseAside />
+              <CourseFilterLateral />
             </Col>
             <Col lg={9}>
-              <GridCourses
+              <CourseGridDefault
                 courses={courses}
               />
             </Col>

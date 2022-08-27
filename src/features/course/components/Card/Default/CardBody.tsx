@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Price } from '@features/course';
 import { HeadLine, Small, AiOutlineUser, FiThumbsUp } from '@features/ui';
-import CardCourseStyled from './cardcourse.styled';
+import CardCourseStyled from './courseCardDefault.styled';
 import { formatCurrency } from '@utils/formatCurrency';
 import Link from 'next/link';
 

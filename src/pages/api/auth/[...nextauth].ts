@@ -4,11 +4,6 @@ import GithubProvider from 'next-auth/providers/github';
 import GoogleProvider from 'next-auth/providers/google';
 
 const options: NextAuthOptions = {
-  theme: {
-    colorScheme: 'light',
-    brandColor: '',
-    logo: ''
-  },
   pages: {
     signIn: '/auth/iniciar-sesion',
     signOut: '/auth/signout'

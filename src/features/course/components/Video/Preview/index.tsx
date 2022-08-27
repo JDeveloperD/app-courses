@@ -10,11 +10,16 @@ import {
 } from '@features/ui';
 import { formatCurrency } from '@utils/formatCurrency';
 import { formatTime } from '@utils/formatTime';
-import { useEffect, useState } from 'react';
-import { Level, Course, useCourseContext } from '@features/course';
+import { useEffect, useState, FC } from 'react';
+import { CourseLevel, Course, useCourseContext } from '@features/course';
 import PreviewStyled from './preview.styled';
 
-const VideoPreview = ({ id }: {id:number}) => {
+type CourseVideoPreviewType = {
+  id: number,
+  className?: string
+}
+
+const CourseVideoPreview: FC<CourseVideoPreviewType> = ({ id }) => {
   const [{ initialCourses }] = useCourseContext();
   const [course, setCourse] = useState<Course|undefined>(undefined);
 
@@ -57,7 +62,7 @@ const VideoPreview = ({ id }: {id:number}) => {
           </Paragraph>
 
           <Paragraph color='primary'>
-            <Level level={course.level} />
+            <CourseLevel level={course.level} />
           </Paragraph>
         </div>
         <Paragraph color='gray' className='d-none d-md-block'>{course.excerpt}</Paragraph>
@@ -81,4 +86,4 @@ const VideoPreview = ({ id }: {id:number}) => {
   );
 };
 
-export default VideoPreview;
+export default CourseVideoPreview;

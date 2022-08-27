@@ -1,5 +1,5 @@
 import { getCourseById } from '@api/course';
-import { Course, TabCourseDetail, FeaturesOfCourse } from '@features/course';
+import { Course, CourseDetailTab, CourseFeaturesList } from '@features/course';
 import { Col, Container, HeadLine, Paragraph, Row, Section } from '@features/ui';
 import { getIdFromSlug } from '@utils/generateSlug';
 import { GetServerSideProps } from 'next';
@@ -32,10 +32,10 @@ const SingleCoursePage = ({ course }: {course: Course}) => {
           <Col lg={8}>
             <HeadLine size={2}>{course.name}</HeadLine>
             <Paragraph>Un curso de <b>{course.instructor.name}</b></Paragraph>
-            <TabCourseDetail />
+            <CourseDetailTab />
           </Col>
           <Col lg={4}>
-            <FeaturesOfCourse />
+            <CourseFeaturesList />
           </Col>
         </Row>
       </Container>

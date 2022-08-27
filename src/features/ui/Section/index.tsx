@@ -26,8 +26,6 @@ const Section = styled.section<{topSection?: boolean}>`
       padding-top: 200px;
     `}
   }
-
-
 `;
 
 export default Section;

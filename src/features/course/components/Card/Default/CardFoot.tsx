@@ -1,8 +1,8 @@
-import { ButtonAddToCart, useCartContext } from '@features/cart';
+import { CartButtonAddToCart, useCartContext } from '@features/cart';
 import { Button } from '@features/ui';
 import { Course } from '@features/course/domain';
 import { FC, useEffect, useState } from 'react';
-import CardCourseStyled from './cardcourse.styled';
+import CardDefaultStyled from './courseCardDefault.styled';
 
 const CardFoot: FC<{id: number}> = ({ id }) => {
   const [isCourseInCart, setIsCourseInCart] = useState<boolean>(false);
@@ -16,8 +16,8 @@ const CardFoot: FC<{id: number}> = ({ id }) => {
   }, [itemsOnCart]);
 
   return (
-    <CardCourseStyled.Foot>
-      <ButtonAddToCart
+    <CardDefaultStyled.Foot>
+      <CartButtonAddToCart
         id={id}
         isItemInCart={isCourseInCart}
       />
@@ -28,7 +28,7 @@ const CardFoot: FC<{id: number}> = ({ id }) => {
       >
         Obtener Membresía
       </Button>
-    </CardCourseStyled.Foot>
+    </CardDefaultStyled.Foot>
   );
 };
 

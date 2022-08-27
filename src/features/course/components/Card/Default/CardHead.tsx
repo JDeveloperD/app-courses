@@ -1,7 +1,7 @@
 import { ButtonPlay, FiPlay } from '@features/ui';
-import CardCourseStyled from './cardcourse.styled';
+import CardCourseStyled from './courseCardDefault.styled';
 import { FC } from 'react';
-import { Level } from '@features/course';
+import { CourseLevel } from '@features/course';
 
 const CardHead: FC<{ image: string, level: number }> = ({ image, level, ...props }) => {
   return (
@@ -11,7 +11,7 @@ const CardHead: FC<{ image: string, level: number }> = ({ image, level, ...props
     */}
       <CardCourseStyled.Image image={image} />
       <CardCourseStyled.Level>
-        <Level level={level} />
+        <CourseLevel level={level} />
       </CardCourseStyled.Level>
       <ButtonPlay position='center' />
       <CardCourseStyled.Overlay>

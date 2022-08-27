@@ -1,6 +1,6 @@
 import { Badge } from '@features/ui';
 
-const Level = ({ level, ...props }: {level: number}) => {
+const CourseLevel = ({ level, ...props }: {level: number}) => {
   if (level === 1) {
     return (
       <Badge {...props} color='success'>Básico</Badge>
@@ -24,4 +24,4 @@ const Level = ({ level, ...props }: {level: number}) => {
   );
 };
 
-export default Level;
+export default CourseLevel;

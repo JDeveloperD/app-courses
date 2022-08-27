@@ -1,4 +1,4 @@
-const ErrorAuth = () => {
+const AuthErrorPage = () => {
   return (
     <div>
 
@@ -6,6 +6,6 @@ const ErrorAuth = () => {
   );
 };
 
-ErrorAuth.layout = 'auth';
+AuthErrorPage.layout = 'auth';
 
-export default ErrorAuth;
+export default AuthErrorPage;

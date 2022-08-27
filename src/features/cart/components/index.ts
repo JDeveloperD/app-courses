@@ -1,4 +1,8 @@
-export { default as MiniCart } from './MiniCart';
+/**
+ * Button
+ */
+export { default as CartButtonCounter } from './Button/Counter';
+export { default as CartButtonAddToCart } from './Button/AddToCart';
+
+export { default as CartLateral } from './Lateral';
 export { default as CartItem } from './CartItem';
-export { default as ButtonAddToCart } from './ButtonAddToCart';
-export { default as ButtonCounterCart } from './ButtonCounterCart';

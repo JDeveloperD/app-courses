@@ -3,7 +3,8 @@ import { Course } from '@features/course';
 import CardHead from './CardHead';
 import CardBody from './CardBody';
 import CardFoot from './CardFoot';
-import CardCourseStyled from './cardcourse.styled';
+import CardCourseStyled from './courseCardDefault.styled';
+import { routesPage } from '@routes';
 
 type CardCourseProps = Course & {
   handleVideoPreview: any
@@ -23,7 +24,8 @@ const CardCourse: FC<CardCourseProps> = ({
   handleVideoPreview
 }) => {
   // const permalinkDetail = `/clases/v2/${id}/detalle`;
-  const permalinkDetail = `/clases/${slug}`;
+  // const permalinkDetail = `/cursos/${slug}`;
+  const permalinkDetail = routesPage.courses.detail(slug);
 
   return (
     <CardCourseStyled.Wrapper>

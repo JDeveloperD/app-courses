@@ -1,7 +1,7 @@
 import { ThemePropsInterface } from '@styles/styled';
 import styled, { css } from 'styled-components';
 
-export type SmallStyledTypes = Pick<ThemePropsInterface, 'color'>
+export type SmallStyledTypes = Pick<ThemePropsInterface, 'color'> & { bold?: boolean }
 
 const Small = styled.small<SmallStyledTypes>`
   font-weight: 400;

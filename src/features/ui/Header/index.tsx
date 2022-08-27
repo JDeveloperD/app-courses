@@ -9,15 +9,15 @@ import {
 } from '@features/ui';
 import { useToggle } from '@hooks';
 import NavBar from './NavBar';
-import { SignInInfo } from '@features/user';
+import { UserSignInInfo } from '@features/user';
 import HeaderStyled from './header.styled';
-import { ButtonCounterCart, MiniCart } from '@features/cart';
+import { CartButtonCounter, CartLateral } from '@features/cart';
 import { useRouter } from 'next/router';
 
 const Header = () => {
   const { pathname } = useRouter();
   const [openNav, toggleNav] = useToggle();
-  const [openMiniCart, toggleOpenMiniCart] = useToggle();
+  const [openCartLateral, toggleOpenCartLateral] = useToggle();
 
   const isLight = pathname === '/' || pathname === '/clases/[id]';
 
@@ -49,19 +49,20 @@ const Header = () => {
                 <FiSearch />
               </Button>
 
-              <ButtonCounterCart
+              <CartButtonCounter
                 light={isLight}
-                openMiniCart={toggleOpenMiniCart}
+                openMiniCart={toggleOpenCartLateral}
+                className='me-3'
               />
 
-              <SignInInfo light={isLight} />
+              <UserSignInInfo light={isLight} />
             </div>
           </Col>
         </Row>
       </Container>
-      <MiniCart
-        active={openMiniCart}
-        closeFunction={toggleOpenMiniCart}
+      <CartLateral
+        active={openCartLateral}
+        closeFunction={toggleOpenCartLateral}
       />
     </HeaderStyled.Wrapper>
   );

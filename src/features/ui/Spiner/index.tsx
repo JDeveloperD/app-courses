@@ -18,7 +18,11 @@ const Spiner = styled.span<SpinerStyledInterface>`
   ${({ sm }) => sm && css`
     width: 1rem;
     height: 1rem;
-    border-width: 0.2em;
+    border-width: 0.15em;
+  `}
+
+  ${({ theme, color }) => color && css`
+    color: ${theme.colors[color]};
   `}
 `;
 

@@ -31,7 +31,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang='es-mx'>
         <Head>
           {/** favicon */}
           <link rel="shortcut icon" href="/favicon.ico" />

@@ -1,6 +1,6 @@
-import { SpecialistsSection } from '@features/specialist';
+import { InstructorSectionHome } from '@features/instructor';
 import { AgroClubWhySection, AgroClubBannerMain, AgroClubBannerAppMobile } from '@features/agro-club';
-import { CourseCarouselSection } from '@features/course';
+import { CourseSectionCarousel } from '@features/course';
 import { GetServerSideProps } from 'next';
 import { getCourses } from '@api/course';
 
@@ -19,8 +19,8 @@ const Home = ({ courses }) => {
     <>
       <AgroClubBannerMain />
       <AgroClubWhySection />
-      <CourseCarouselSection courses={courses} />
-      <SpecialistsSection />
+      <CourseSectionCarousel courses={courses} />
+      <InstructorSectionHome />
       <AgroClubBannerAppMobile />
     </>
   );

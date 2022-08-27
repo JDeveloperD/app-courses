@@ -1,1 +1,1 @@
-export { default as ModuleListAccordeon } from './ListAccordeon';
+export { default as ModuleListAccordeon } from './List/Accordeon';

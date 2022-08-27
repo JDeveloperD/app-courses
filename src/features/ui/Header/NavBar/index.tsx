@@ -12,12 +12,12 @@ const navMainItems: Array<NavBarItemProps> = [
   {
     id: 'nav-main-item-2',
     text: 'cursos',
-    to: '/',
+    to: '/cursos',
     subItems: [
       {
         id: 'subitem-main-item-1',
         text: 'curso inicial',
-        to: '/'
+        to: '/cursos'
       },
       {
         id: 'subitem-main-item-2',

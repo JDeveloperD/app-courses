@@ -1,13 +1,18 @@
 import { RESET_UL } from '@styles';
 import styled, { css } from 'styled-components';
 
-const Item = styled.li`
+const Item = styled.li<{active?: boolean}>`
   cursor: pointer;
   display: flex;
   gap: 0.5rem;
   align-items: center;
   width: 100%;
   padding: 0.5rem 0;
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.textBody};
+  }
 
   &::before {
     content: '';
@@ -22,6 +27,11 @@ const Item = styled.li`
     
     &::before {
       background-color: ${theme.colors.primary};
+    }
+
+    a {
+      color: ${theme.colors.primary};
+      font-weight: 600;
     }
   `}
 `;
